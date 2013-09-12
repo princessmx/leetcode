@@ -1,4 +1,4 @@
-// Small: 16ms; Large: 36ms
+// Small: 4ms; Large: 36ms
 /**
  * Definition for singly-linked list.
  * struct ListNode {
