@@ -7,7 +7,7 @@ public:
                 return false;
             }
             int jump_index = i + A[i];
-            if (max_index <= jump_index) {
+            if (max_index < jump_index) {
                 max_index = jump_index;
                 if (max_index >= n - 1) {
                     return true;
