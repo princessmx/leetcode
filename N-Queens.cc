@@ -45,16 +45,6 @@ private:
                 return false;
             }
         }
-        for (int i = row + 1, j = col - 1; i < n_ && j >= 0; i++, j--) {
-            if (solution_[i][j] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row + 1, j = col + 1; i < n_ && j < n_; i++, j++) {
-            if (solution_[i][j] == 'Q') {
-                return false;
-            }
-        }
         return true;
     }
     int n_;
